@@ -118,7 +118,7 @@ sqlplus RESTAURANT_DW/<password>@localhost:1521/XEPDB1 @sql/etl/fix.sql
 
 ---
 
-## 📊 Analytical Queries
+# Analytical Queries
 
 All 15 queries are in [`sql/analysis/15_queries.sql`](sql/analysis/15_queries.sql), organized into 5 groups:
 
