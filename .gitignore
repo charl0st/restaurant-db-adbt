@@ -1,0 +1,13 @@
+# SQL Loader output files
+*.log
+*.bad
+*.dsc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+.idea/
+.vscode/
