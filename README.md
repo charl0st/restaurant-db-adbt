@@ -1,13 +1,7 @@
-# 🍽️ Restaurant Database & Data Warehouse Project
+#Restaurant Database & Data Warehouse Project
+Platform:Oracle Database XE (XEPDB1)
 
-**Course:** Advanced Database Techniques (ADBT)  
-**Group:** 2ID EN11B | **Student ID:** 10218  
-**Platform:** Oracle Database XE (XEPDB1)
-
----
-
-## 📋 Project Overview
-
+#Project Overview
 This project implements a full **OLTP → Data Warehouse** pipeline for a restaurant chain network. It covers:
 
 - Operational relational database design (3NF)
@@ -15,10 +9,8 @@ This project implements a full **OLTP → Data Warehouse** pipeline for a restau
 - Bulk data loading with SQL Loader
 - 15 analytical queries using advanced SQL features
 
----
 
-## 🗂️ Repository Structure
-
+#Repository Structure
 ```
 ├── sql/
 │   ├── operational/          # OLTP database DDL (RESTARUANT_DB schema)
@@ -36,8 +28,7 @@ This project implements a full **OLTP → Data Warehouse** pipeline for a restau
 
 ---
 
-## 🗄️ Database Schemas
-
+#Database Schemas
 ### Operational DB — `RESTARUANT_DB` (15 tables)
 
 | # | Table | Description |
@@ -78,8 +69,7 @@ DIM_RESTAURANT ──FACT_SALES── DIM_MENUITEM
 
 ---
 
-## 🚀 Setup Instructions
-
+# Setup Instructions
 ### Prerequisites
 
 - Oracle Database XE with pluggable database `XEPDB1`
@@ -142,7 +132,7 @@ All 15 queries are in [`sql/analysis/15_queries.sql`](sql/analysis/15_queries.sq
 
 ---
 
-## 📁 Data Files
+#Data Files
 
 | File | Rows | Description |
 |------|------|-------------|
