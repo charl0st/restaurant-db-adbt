@@ -2,14 +2,12 @@
 Platform:Oracle Database XE (XEPDB1)
 
 #Project Overview
-This project implements a full **OLTP → Data Warehouse** pipeline for a restaurant chain network. It covers:
-
+This project implements a full OLTP Data to Warehouse pipeline for a restaurant chain network. It covers:
 - Operational relational database design (3NF)
 - Star-schema data warehouse
 - Bulk data loading with SQL Loader
 - 15 analytical queries using advanced SQL features
-
-
+  
 #Repository Structure
 ```
 ├── sql/
@@ -25,8 +23,6 @@ This project implements a full **OLTP → Data Warehouse** pipeline for a restau
 │   └── restaurants.csv
 └── docs/                     # Project report (Word document)
 ```
-
----
 
 #Database Schemas
 ### Operational DB — `RESTARUANT_DB` (15 tables)
